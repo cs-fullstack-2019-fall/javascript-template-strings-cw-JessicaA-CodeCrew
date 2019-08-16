@@ -16,15 +16,15 @@
 // My id is 2112.
 // My address is Memphis, TN.
 //
-// let myName = "Kevin";
-// let myId = "2112";
-// let myAddress = "Memphis, TN";
-//
-// let myTemplatestring = `My name is ${myName}
-// My id is ${myId}
-// My address is ${myAddress}`;
-// console.log (myTemplatestring);
-// alert(myTemplatestring);
+let myName = "Kevin";
+let myId = "2112";
+let myAddress = "Memphis, TN";
+
+let myTemplatestring = `My name is ${myName}
+My id is ${myId}
+My address is ${myAddress}`;
+console.log (myTemplatestring);
+alert(myTemplatestring);
 
 //Exercise 2:
 // Create a new template string
@@ -32,15 +32,15 @@
 // var contestant = "1_M_l337!";
 // var score = "9001";
 // and use the provided variables to print
-//
+
 // Congratulations 1_M_l337! !!, your score is 9001.
 
-// let contestant = "1_M_1337!";
-// let score = "9001";
-// let tempString = `${contestant} your score is ${score}`;
-//
-// alert (`Congratulations ${tempString}`)
-// console.log(tempString);
+let contestant = "1_M_1337!";
+let score = "9001";
+let tempString = `${contestant} your score is ${score}`;
+
+alert (`Congratulations ${tempString}`)
+console.log(tempString);
 
 //Exercise 3:
 // Using the provided Object literal, create a template string and iterate through the Parents and Children and print them in a format similar to the following:
